@@ -7,6 +7,7 @@ import { CardComponent } from './card/card.component';
 import { CardRoxoComponent } from './card-roxo/card-roxo.component';
 import { CardButtonComponent } from './card-button/card-button.component';
 import { CardRoxoButtonComponent } from './card-roxo-button/card-roxo-button.component';
+import { CardsModule } from './cards/cards.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { CardRoxoButtonComponent } from './card-roxo-button/card-roxo-button.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
