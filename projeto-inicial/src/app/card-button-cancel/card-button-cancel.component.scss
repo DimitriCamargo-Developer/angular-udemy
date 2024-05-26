@@ -1,0 +1,14 @@
+//@import "src/styles.scss"; //caminho absoluto não funciona a partir da versão 17 do angular
+//@import "../../styles/variables.scss"; //caminho relativo
+@import "variables"; //import via angular.json
+
+.card-cancel-button {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color: $bgColor;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+}
