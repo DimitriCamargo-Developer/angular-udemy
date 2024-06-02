@@ -5,4 +5,6 @@
 //html, body { height: 100%; } //foi adicionado pelo angular/material pelo visto
 //body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-
+mat-slider.custom-slider .mdc-slider__track--active_fill {
+  border-color: blue !important;
+}
